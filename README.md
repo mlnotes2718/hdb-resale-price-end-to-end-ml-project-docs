@@ -3,10 +3,12 @@
 This is the master repository that contain the project master plan and consolidation of project documentation to implement an end to end machine learning pipeline on HDB resale Price Prediction.
 
 ## Objective:
-The objective of this project is to 
+The objective of this project is to showcase an end-to-end machine learning flow from teh data source to the presentation end. We use HDB Resale prediction as our project.
+
+## Implementation Strategy
+We will be using CI/CD approach to develop and improve this project over time.
 
 ## Data
-
 - **Data Source**: data.gov.sg
 - **Dataset Name**:  HDB Resale Flat Price based on registration from Jan 2017 onwards
 - **Filename**: `ResaleflatpricesbasedonregistrationdatefromJan2017onwards.csv`
@@ -35,7 +37,7 @@ The objective of this project is to
 
 
 ## Latest Release
-- 11 Jul 2025: ELT pipeline v1.0 is release (https://github.com/mlnotes2718/hdb-resale-price-e2e-elt)
+- 11 Jul 2025: ELT pipeline v1.0 is release Release Notes: (https://github.com/mlnotes2718/hdb-resale-price-e2e-elt/releases/tag/v1.0)
 
 
 Reference:
