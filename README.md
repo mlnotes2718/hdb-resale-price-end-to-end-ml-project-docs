@@ -31,9 +31,23 @@ We will be using CI/CD approach to develop and improve this project over time.
 - The whole process is configure with Github Actions for a quick automation.
 - Since this is a PoC prototype, there is no scheduling for Github Actions, only manual trigger.
 
+## Machine Learning (ML) Pipeline
+- We use a python file `main.py` to execute the entire ML flow.
+- The script will execute the following process:
+    - Load configuration
+    - Read the data file
+    - Initialize and setup the data preparation class
+    - Perform data cleaning by invoking the data cleaning method
+    - Initialize the model training class and setup the preprocessor
+    - Perform baseline training by invoking the baseline training method
+    - Perform hyperparameters fine tuning by invoking the fine tune model method
+- The whole process is configure with Github Actions for a quick automation.
+- Since this is a PoC prototype, there is no scheduling for Github Actions, only manual trigger.
+
 ## Repository
 - https://github.com/mlnotes2718/hdb-resale-price-e2e-elt
 - https://github.com/mlnotes2718/hdb-resale-price-e2e-ml
+- https://github.com/mlnotes2718/hdb-resale-price-e2e-web-flask
 
 
 ## Latest Release
